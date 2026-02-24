@@ -1,0 +1,4 @@
+C:\Users\VSOFT\my-project\DotnetPractice\Day01\Exercise02\obj\Debug\net10.0\Exercise02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VSOFT\my-project\DotnetPractice\Day01\Exercise02\obj\Debug\net10.0\Exercise02.AssemblyInfoInputs.cache
+C:\Users\VSOFT\my-project\DotnetPractice\Day01\Exercise02\obj\Debug\net10.0\Exercise02.AssemblyInfo.cs
+C:\Users\VSOFT\my-project\DotnetPractice\Day01\Exercise02\obj\Debug\net10.0\Exercise02.csproj.CoreCompileInputs.cache
