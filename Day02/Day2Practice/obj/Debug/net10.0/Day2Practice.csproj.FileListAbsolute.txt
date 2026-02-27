@@ -1,0 +1,15 @@
+C:\Users\VSOFT\my-project\DotnetPractice\Day02\Day2Practice\bin\Debug\net10.0\Day2Practice.exe
+C:\Users\VSOFT\my-project\DotnetPractice\Day02\Day2Practice\bin\Debug\net10.0\Day2Practice.deps.json
+C:\Users\VSOFT\my-project\DotnetPractice\Day02\Day2Practice\bin\Debug\net10.0\Day2Practice.runtimeconfig.json
+C:\Users\VSOFT\my-project\DotnetPractice\Day02\Day2Practice\bin\Debug\net10.0\Day2Practice.dll
+C:\Users\VSOFT\my-project\DotnetPractice\Day02\Day2Practice\bin\Debug\net10.0\Day2Practice.pdb
+C:\Users\VSOFT\my-project\DotnetPractice\Day02\Day2Practice\obj\Debug\net10.0\Day2Practice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VSOFT\my-project\DotnetPractice\Day02\Day2Practice\obj\Debug\net10.0\Day2Practice.AssemblyInfoInputs.cache
+C:\Users\VSOFT\my-project\DotnetPractice\Day02\Day2Practice\obj\Debug\net10.0\Day2Practice.AssemblyInfo.cs
+C:\Users\VSOFT\my-project\DotnetPractice\Day02\Day2Practice\obj\Debug\net10.0\Day2Practice.csproj.CoreCompileInputs.cache
+C:\Users\VSOFT\my-project\DotnetPractice\Day02\Day2Practice\obj\Debug\net10.0\Day2Practice.sourcelink.json
+C:\Users\VSOFT\my-project\DotnetPractice\Day02\Day2Practice\obj\Debug\net10.0\Day2Practice.dll
+C:\Users\VSOFT\my-project\DotnetPractice\Day02\Day2Practice\obj\Debug\net10.0\refint\Day2Practice.dll
+C:\Users\VSOFT\my-project\DotnetPractice\Day02\Day2Practice\obj\Debug\net10.0\Day2Practice.pdb
+C:\Users\VSOFT\my-project\DotnetPractice\Day02\Day2Practice\obj\Debug\net10.0\Day2Practice.genruntimeconfig.cache
+C:\Users\VSOFT\my-project\DotnetPractice\Day02\Day2Practice\obj\Debug\net10.0\ref\Day2Practice.dll

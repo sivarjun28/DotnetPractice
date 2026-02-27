@@ -1,0 +1,15 @@
+C:\Users\VSOFT\my-project\DotnetPractice\Day04\Day4Practice\OOpsBasic\bin\Debug\net10.0\OOpsBasic.exe
+C:\Users\VSOFT\my-project\DotnetPractice\Day04\Day4Practice\OOpsBasic\bin\Debug\net10.0\OOpsBasic.deps.json
+C:\Users\VSOFT\my-project\DotnetPractice\Day04\Day4Practice\OOpsBasic\bin\Debug\net10.0\OOpsBasic.runtimeconfig.json
+C:\Users\VSOFT\my-project\DotnetPractice\Day04\Day4Practice\OOpsBasic\bin\Debug\net10.0\OOpsBasic.dll
+C:\Users\VSOFT\my-project\DotnetPractice\Day04\Day4Practice\OOpsBasic\bin\Debug\net10.0\OOpsBasic.pdb
+C:\Users\VSOFT\my-project\DotnetPractice\Day04\Day4Practice\OOpsBasic\obj\Debug\net10.0\OOpsBasic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VSOFT\my-project\DotnetPractice\Day04\Day4Practice\OOpsBasic\obj\Debug\net10.0\OOpsBasic.AssemblyInfoInputs.cache
+C:\Users\VSOFT\my-project\DotnetPractice\Day04\Day4Practice\OOpsBasic\obj\Debug\net10.0\OOpsBasic.AssemblyInfo.cs
+C:\Users\VSOFT\my-project\DotnetPractice\Day04\Day4Practice\OOpsBasic\obj\Debug\net10.0\OOpsBasic.csproj.CoreCompileInputs.cache
+C:\Users\VSOFT\my-project\DotnetPractice\Day04\Day4Practice\OOpsBasic\obj\Debug\net10.0\OOpsBasic.sourcelink.json
+C:\Users\VSOFT\my-project\DotnetPractice\Day04\Day4Practice\OOpsBasic\obj\Debug\net10.0\OOpsBasic.dll
+C:\Users\VSOFT\my-project\DotnetPractice\Day04\Day4Practice\OOpsBasic\obj\Debug\net10.0\refint\OOpsBasic.dll
+C:\Users\VSOFT\my-project\DotnetPractice\Day04\Day4Practice\OOpsBasic\obj\Debug\net10.0\OOpsBasic.pdb
+C:\Users\VSOFT\my-project\DotnetPractice\Day04\Day4Practice\OOpsBasic\obj\Debug\net10.0\OOpsBasic.genruntimeconfig.cache
+C:\Users\VSOFT\my-project\DotnetPractice\Day04\Day4Practice\OOpsBasic\obj\Debug\net10.0\ref\OOpsBasic.dll
