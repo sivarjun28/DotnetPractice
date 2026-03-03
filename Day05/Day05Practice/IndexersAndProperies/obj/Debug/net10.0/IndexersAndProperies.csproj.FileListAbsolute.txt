@@ -1,0 +1,15 @@
+C:\Users\VSOFT\my-project\DotnetPractice\Day05\Day05Practice\IndexersAndProperies\bin\Debug\net10.0\IndexersAndProperies.exe
+C:\Users\VSOFT\my-project\DotnetPractice\Day05\Day05Practice\IndexersAndProperies\bin\Debug\net10.0\IndexersAndProperies.deps.json
+C:\Users\VSOFT\my-project\DotnetPractice\Day05\Day05Practice\IndexersAndProperies\bin\Debug\net10.0\IndexersAndProperies.runtimeconfig.json
+C:\Users\VSOFT\my-project\DotnetPractice\Day05\Day05Practice\IndexersAndProperies\bin\Debug\net10.0\IndexersAndProperies.dll
+C:\Users\VSOFT\my-project\DotnetPractice\Day05\Day05Practice\IndexersAndProperies\bin\Debug\net10.0\IndexersAndProperies.pdb
+C:\Users\VSOFT\my-project\DotnetPractice\Day05\Day05Practice\IndexersAndProperies\obj\Debug\net10.0\IndexersAndProperies.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VSOFT\my-project\DotnetPractice\Day05\Day05Practice\IndexersAndProperies\obj\Debug\net10.0\IndexersAndProperies.AssemblyInfoInputs.cache
+C:\Users\VSOFT\my-project\DotnetPractice\Day05\Day05Practice\IndexersAndProperies\obj\Debug\net10.0\IndexersAndProperies.AssemblyInfo.cs
+C:\Users\VSOFT\my-project\DotnetPractice\Day05\Day05Practice\IndexersAndProperies\obj\Debug\net10.0\IndexersAndProperies.csproj.CoreCompileInputs.cache
+C:\Users\VSOFT\my-project\DotnetPractice\Day05\Day05Practice\IndexersAndProperies\obj\Debug\net10.0\IndexersAndProperies.sourcelink.json
+C:\Users\VSOFT\my-project\DotnetPractice\Day05\Day05Practice\IndexersAndProperies\obj\Debug\net10.0\IndexersAndProperies.dll
+C:\Users\VSOFT\my-project\DotnetPractice\Day05\Day05Practice\IndexersAndProperies\obj\Debug\net10.0\refint\IndexersAndProperies.dll
+C:\Users\VSOFT\my-project\DotnetPractice\Day05\Day05Practice\IndexersAndProperies\obj\Debug\net10.0\IndexersAndProperies.pdb
+C:\Users\VSOFT\my-project\DotnetPractice\Day05\Day05Practice\IndexersAndProperies\obj\Debug\net10.0\IndexersAndProperies.genruntimeconfig.cache
+C:\Users\VSOFT\my-project\DotnetPractice\Day05\Day05Practice\IndexersAndProperies\obj\Debug\net10.0\ref\IndexersAndProperies.dll
