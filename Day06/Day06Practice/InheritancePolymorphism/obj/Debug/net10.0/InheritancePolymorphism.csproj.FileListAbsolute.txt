@@ -1,0 +1,15 @@
+C:\Users\VSOFT\my-project\DotnetPractice\Day06\Day06Practice\InheritancePolymorphism\bin\Debug\net10.0\InheritancePolymorphism.exe
+C:\Users\VSOFT\my-project\DotnetPractice\Day06\Day06Practice\InheritancePolymorphism\bin\Debug\net10.0\InheritancePolymorphism.deps.json
+C:\Users\VSOFT\my-project\DotnetPractice\Day06\Day06Practice\InheritancePolymorphism\bin\Debug\net10.0\InheritancePolymorphism.runtimeconfig.json
+C:\Users\VSOFT\my-project\DotnetPractice\Day06\Day06Practice\InheritancePolymorphism\bin\Debug\net10.0\InheritancePolymorphism.dll
+C:\Users\VSOFT\my-project\DotnetPractice\Day06\Day06Practice\InheritancePolymorphism\bin\Debug\net10.0\InheritancePolymorphism.pdb
+C:\Users\VSOFT\my-project\DotnetPractice\Day06\Day06Practice\InheritancePolymorphism\obj\Debug\net10.0\InheritancePolymorphism.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VSOFT\my-project\DotnetPractice\Day06\Day06Practice\InheritancePolymorphism\obj\Debug\net10.0\InheritancePolymorphism.AssemblyInfoInputs.cache
+C:\Users\VSOFT\my-project\DotnetPractice\Day06\Day06Practice\InheritancePolymorphism\obj\Debug\net10.0\InheritancePolymorphism.AssemblyInfo.cs
+C:\Users\VSOFT\my-project\DotnetPractice\Day06\Day06Practice\InheritancePolymorphism\obj\Debug\net10.0\InheritancePolymorphism.csproj.CoreCompileInputs.cache
+C:\Users\VSOFT\my-project\DotnetPractice\Day06\Day06Practice\InheritancePolymorphism\obj\Debug\net10.0\InheritancePolymorphism.sourcelink.json
+C:\Users\VSOFT\my-project\DotnetPractice\Day06\Day06Practice\InheritancePolymorphism\obj\Debug\net10.0\InheritancePolymorphism.dll
+C:\Users\VSOFT\my-project\DotnetPractice\Day06\Day06Practice\InheritancePolymorphism\obj\Debug\net10.0\refint\InheritancePolymorphism.dll
+C:\Users\VSOFT\my-project\DotnetPractice\Day06\Day06Practice\InheritancePolymorphism\obj\Debug\net10.0\InheritancePolymorphism.pdb
+C:\Users\VSOFT\my-project\DotnetPractice\Day06\Day06Practice\InheritancePolymorphism\obj\Debug\net10.0\InheritancePolymorphism.genruntimeconfig.cache
+C:\Users\VSOFT\my-project\DotnetPractice\Day06\Day06Practice\InheritancePolymorphism\obj\Debug\net10.0\ref\InheritancePolymorphism.dll
