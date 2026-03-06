@@ -44,6 +44,33 @@ namespace AbstractClasses
             ConsoleLogger logger = new();
             logger.Log("Info message");
 
+            RoboDog roboDog = new();
+            roboDog.Bark();
+
+            IAnimal animal = roboDog;
+            animal.MakeSound();
+
+            IRobot robot = roboDog;
+            robot.MakeSound();
+
+            DataService dataService = new DataService(new SqlRepository());
+            DataService dataService1 = new DataService(new FileRepository());
+
+            dataService.ProcessData("Arjun");
+            new SqlRepository().Save("Siva");
+            new SqlRepository().Load(1);
+
+            new FileRepository().Save("Siva");
+            new FileRepository().Load(1);
+
+            ShoppingCart cart = new();
+            cart.SetPaymentStrategy(new CreditCardPayment());
+            cart.Checkout(78.99m);
+            cart.SetPaymentStrategy(new PayPalPayment());
+            cart.Checkout(49.99m);
+            
+
+
         }
     }
 
@@ -268,5 +295,252 @@ namespace AbstractClasses
 
     }
 
+    // USE ABSTRACT CLASS when:
+    // - You need to share implementation
+    // - You need protected members
+    // - You have a clear "is-a" relationship
+
+    public abstract class Vehicle
+    {
+        protected int wheels;
+        protected string fuelType;
+
+        // Shared implementation
+        public void StartEngine()
+        {
+            Console.WriteLine("Engine started");
+        }
+
+        // Force implementation
+        public abstract void Move();
+    }
+
+    // USE INTERFACE when:
+    // - You want to define capabilities
+    // - You need multiple inheritance
+    // - You want to ensure specific behavior
+
+    public interface IFlyable
+    {
+        double MaxAltitude { get; }
+        void TakeOff();
+        void Land();
+    }
+
+    public interface ISwimmable
+    {
+        double MaxDepth { get; }
+        void Dive();
+        void Surface();
+    }
+
+    // Can implement multiple interfaces but inherit from one class
+    public class Duck : IFlyable, ISwimmable
+    {
+        public double MaxAltitude => 1000;
+        public double MaxDepth => 10;
+
+
+        public void TakeOff()
+        {
+            Console.WriteLine("Duck taking off");
+        }
+
+        public void Land()
+        {
+            Console.WriteLine("Duck landing");
+        }
+
+        public void Dive()
+        {
+            Console.WriteLine("Duck diving");
+        }
+
+        public void Surface()
+        {
+            Console.WriteLine("Duck surfacing");
+        }
+    }
+
+    //Advanced Interface Concepts 
+    public interface IAnimal
+    {
+        void MakeSound();
+
+    }
+
+    public interface IRobot
+    {
+        void MakeSound();
+    }
+    public class RoboDog : IAnimal, IRobot
+    {
+        // Explicit implementation for IAnimal
+        void IAnimal.MakeSound()
+        {
+            System.Console.WriteLine("Woof (organic)"); ;
+        }
+        void IRobot.MakeSound()
+        {
+            System.Console.WriteLine("Beep boop (robotic)"); ;
+        }
+        public void Bark()
+        {
+            System.Console.WriteLine("Regular Bark");
+        }
+    }
+
+    // ❌ BAD: Fat interface
+    public interface IWorker
+    {
+        void Work();
+        void Eat();
+        void Sleep();
+        void GetPaid();
+    }
+
+    // ✅ GOOD: Segregated interfaces
+    public interface IWorkable
+    {
+        void Work();
+    }
+
+    public interface IFeedable
+    {
+        void Eat();
+    }
+
+    public interface ISleepable
+    {
+        void Sleep();
+    }
+
+    public interface IPayable
+    {
+        void GetPaid();
+    }
+
+    // Human implements all
+    public class Human : IWorkable, IFeedable, ISleepable, IPayable
+    {
+        public void Work() { }
+        public void Eat() { }
+        public void Sleep() { }
+        public void GetPaid() { }
+    }
+
+    // Robot only implements what makes sense
+    public class Robot : IWorkable
+    {
+        public void Work() { }
+        // Doesn't need Eat, Sleep, GetPaid
+    }
+
+    //Dependency Inversion with interfaces
+    public interface IDataRepository
+    {
+        void Save(string data);
+        string Load(int id);
+
+
+    }
+
+    public class SqlRepository : IDataRepository
+    {
+        public void Save(string data)
+        {
+            System.Console.WriteLine($"Saving to sQl: {data}");
+        }
+
+        public string Load(int id)
+        {
+            return $"Data from sql: {id}";
+        }
+    }
+
+    public class FileRepository : IDataRepository
+{
+    public void Save(string data)
+    {
+        Console.WriteLine($"Saving to file: {data}");
+    }
+    
+    public string Load(int id)
+    {
+        return $"Data from file: {id}";
+    }
+}
+
+    public class DataService
+    {
+        private readonly IDataRepository dataRepository;
+        public DataService(IDataRepository dataRepository)
+        {
+            this.dataRepository = dataRepository;
+        }
+
+        public void ProcessData(string data)
+        {
+            System.Console.WriteLine(data);
+        }
+    }
+
+    // Common Patterns
+    public interface IRepository<T> where T : class
+{
+    T GetById(int id);
+    IEnumerable<T> GetAll();
+    void Add(T entity);
+    void Update(T entity);
+    void Delete(int id);
+}
+
+// public class ProductRepository : IRepository<Product>
+// {
+//     private List<Product> products = new();
+    
+//     public Product GetById(int id) => products.FirstOrDefault(p => p.Id == id);
+//     public IEnumerable<Product> GetAll() => products;
+//     public void Add(Product entity) => products.Add(entity);
+//     public void Update(Product entity) { /* implementation */ }
+//     public void Delete(int id) => products.RemoveAll(p => p.Id == id);
+// }
+
+public interface IPaymentStrategy
+{
+    void Pay(decimal amount);
+}
+
+public class CreditCardPayment : IPaymentStrategy
+{
+    public void Pay(decimal amount)
+    {
+        Console.WriteLine($"Paid {amount:C} with credit card");
+    }
+}
+
+public class PayPalPayment : IPaymentStrategy
+{
+    public void Pay(decimal amount)
+    {
+        Console.WriteLine($"Paid {amount:C} with PayPal");
+    }
+}
+
+public class ShoppingCart
+{
+    private IPaymentStrategy paymentStrategy;
+    
+    public void SetPaymentStrategy(IPaymentStrategy strategy)
+    {
+        paymentStrategy = strategy;
+    }
+    
+    public void Checkout(decimal amount)
+    {
+        paymentStrategy.Pay(amount);
+    }
+}
+ 
 }
 
