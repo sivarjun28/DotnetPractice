@@ -1,0 +1,15 @@
+C:\Users\VSOFT\my-project\DotnetPractice\Day08\Day08Practice\Generics\bin\Debug\net10.0\Generics.exe
+C:\Users\VSOFT\my-project\DotnetPractice\Day08\Day08Practice\Generics\bin\Debug\net10.0\Generics.deps.json
+C:\Users\VSOFT\my-project\DotnetPractice\Day08\Day08Practice\Generics\bin\Debug\net10.0\Generics.runtimeconfig.json
+C:\Users\VSOFT\my-project\DotnetPractice\Day08\Day08Practice\Generics\bin\Debug\net10.0\Generics.dll
+C:\Users\VSOFT\my-project\DotnetPractice\Day08\Day08Practice\Generics\bin\Debug\net10.0\Generics.pdb
+C:\Users\VSOFT\my-project\DotnetPractice\Day08\Day08Practice\Generics\obj\Debug\net10.0\Generics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VSOFT\my-project\DotnetPractice\Day08\Day08Practice\Generics\obj\Debug\net10.0\Generics.AssemblyInfoInputs.cache
+C:\Users\VSOFT\my-project\DotnetPractice\Day08\Day08Practice\Generics\obj\Debug\net10.0\Generics.AssemblyInfo.cs
+C:\Users\VSOFT\my-project\DotnetPractice\Day08\Day08Practice\Generics\obj\Debug\net10.0\Generics.csproj.CoreCompileInputs.cache
+C:\Users\VSOFT\my-project\DotnetPractice\Day08\Day08Practice\Generics\obj\Debug\net10.0\Generics.sourcelink.json
+C:\Users\VSOFT\my-project\DotnetPractice\Day08\Day08Practice\Generics\obj\Debug\net10.0\Generics.dll
+C:\Users\VSOFT\my-project\DotnetPractice\Day08\Day08Practice\Generics\obj\Debug\net10.0\refint\Generics.dll
+C:\Users\VSOFT\my-project\DotnetPractice\Day08\Day08Practice\Generics\obj\Debug\net10.0\Generics.pdb
+C:\Users\VSOFT\my-project\DotnetPractice\Day08\Day08Practice\Generics\obj\Debug\net10.0\Generics.genruntimeconfig.cache
+C:\Users\VSOFT\my-project\DotnetPractice\Day08\Day08Practice\Generics\obj\Debug\net10.0\ref\Generics.dll
