@@ -1,0 +1,15 @@
+C:\Users\VSOFT\my-project\DotnetPractice\Day09\Day09Practice\AdvancedGenerics\bin\Debug\net10.0\AdvancedGenerics.exe
+C:\Users\VSOFT\my-project\DotnetPractice\Day09\Day09Practice\AdvancedGenerics\bin\Debug\net10.0\AdvancedGenerics.deps.json
+C:\Users\VSOFT\my-project\DotnetPractice\Day09\Day09Practice\AdvancedGenerics\bin\Debug\net10.0\AdvancedGenerics.runtimeconfig.json
+C:\Users\VSOFT\my-project\DotnetPractice\Day09\Day09Practice\AdvancedGenerics\bin\Debug\net10.0\AdvancedGenerics.dll
+C:\Users\VSOFT\my-project\DotnetPractice\Day09\Day09Practice\AdvancedGenerics\bin\Debug\net10.0\AdvancedGenerics.pdb
+C:\Users\VSOFT\my-project\DotnetPractice\Day09\Day09Practice\AdvancedGenerics\obj\Debug\net10.0\AdvancedGenerics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VSOFT\my-project\DotnetPractice\Day09\Day09Practice\AdvancedGenerics\obj\Debug\net10.0\AdvancedGenerics.AssemblyInfoInputs.cache
+C:\Users\VSOFT\my-project\DotnetPractice\Day09\Day09Practice\AdvancedGenerics\obj\Debug\net10.0\AdvancedGenerics.AssemblyInfo.cs
+C:\Users\VSOFT\my-project\DotnetPractice\Day09\Day09Practice\AdvancedGenerics\obj\Debug\net10.0\AdvancedGenerics.csproj.CoreCompileInputs.cache
+C:\Users\VSOFT\my-project\DotnetPractice\Day09\Day09Practice\AdvancedGenerics\obj\Debug\net10.0\AdvancedGenerics.sourcelink.json
+C:\Users\VSOFT\my-project\DotnetPractice\Day09\Day09Practice\AdvancedGenerics\obj\Debug\net10.0\AdvancedGenerics.dll
+C:\Users\VSOFT\my-project\DotnetPractice\Day09\Day09Practice\AdvancedGenerics\obj\Debug\net10.0\refint\AdvancedGenerics.dll
+C:\Users\VSOFT\my-project\DotnetPractice\Day09\Day09Practice\AdvancedGenerics\obj\Debug\net10.0\AdvancedGenerics.pdb
+C:\Users\VSOFT\my-project\DotnetPractice\Day09\Day09Practice\AdvancedGenerics\obj\Debug\net10.0\AdvancedGenerics.genruntimeconfig.cache
+C:\Users\VSOFT\my-project\DotnetPractice\Day09\Day09Practice\AdvancedGenerics\obj\Debug\net10.0\ref\AdvancedGenerics.dll

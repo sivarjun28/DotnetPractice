@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "AdvancedGenerics/1.0.0": {
+        "runtime": {
+          "AdvancedGenerics.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AdvancedGenerics/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

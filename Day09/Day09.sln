@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day09Practice", "Day09Practice", "{9D837DB4-6DB1-7868-FFFD-A301C4E7EFAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedGenerics", "Day09Practice\AdvancedGenerics\AdvancedGenerics.csproj", "{AD064149-BF0B-F729-2285-9B16BB7C363A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD064149-BF0B-F729-2285-9B16BB7C363A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD064149-BF0B-F729-2285-9B16BB7C363A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD064149-BF0B-F729-2285-9B16BB7C363A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD064149-BF0B-F729-2285-9B16BB7C363A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AD064149-BF0B-F729-2285-9B16BB7C363A} = {9D837DB4-6DB1-7868-FFFD-A301C4E7EFAD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98568D70-E3B5-4BFA-A726-5B179842C65A}
+	EndGlobalSection
+EndGlobal
