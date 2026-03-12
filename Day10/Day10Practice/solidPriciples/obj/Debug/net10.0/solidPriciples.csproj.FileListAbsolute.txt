@@ -1,0 +1,15 @@
+C:\Users\VSOFT\my-project\DotnetPractice\Day10\Day10Practice\solidPriciples\bin\Debug\net10.0\solidPriciples.exe
+C:\Users\VSOFT\my-project\DotnetPractice\Day10\Day10Practice\solidPriciples\bin\Debug\net10.0\solidPriciples.deps.json
+C:\Users\VSOFT\my-project\DotnetPractice\Day10\Day10Practice\solidPriciples\bin\Debug\net10.0\solidPriciples.runtimeconfig.json
+C:\Users\VSOFT\my-project\DotnetPractice\Day10\Day10Practice\solidPriciples\bin\Debug\net10.0\solidPriciples.dll
+C:\Users\VSOFT\my-project\DotnetPractice\Day10\Day10Practice\solidPriciples\bin\Debug\net10.0\solidPriciples.pdb
+C:\Users\VSOFT\my-project\DotnetPractice\Day10\Day10Practice\solidPriciples\obj\Debug\net10.0\solidPriciples.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VSOFT\my-project\DotnetPractice\Day10\Day10Practice\solidPriciples\obj\Debug\net10.0\solidPriciples.AssemblyInfoInputs.cache
+C:\Users\VSOFT\my-project\DotnetPractice\Day10\Day10Practice\solidPriciples\obj\Debug\net10.0\solidPriciples.AssemblyInfo.cs
+C:\Users\VSOFT\my-project\DotnetPractice\Day10\Day10Practice\solidPriciples\obj\Debug\net10.0\solidPriciples.csproj.CoreCompileInputs.cache
+C:\Users\VSOFT\my-project\DotnetPractice\Day10\Day10Practice\solidPriciples\obj\Debug\net10.0\solidPriciples.sourcelink.json
+C:\Users\VSOFT\my-project\DotnetPractice\Day10\Day10Practice\solidPriciples\obj\Debug\net10.0\solidPriciples.dll
+C:\Users\VSOFT\my-project\DotnetPractice\Day10\Day10Practice\solidPriciples\obj\Debug\net10.0\refint\solidPriciples.dll
+C:\Users\VSOFT\my-project\DotnetPractice\Day10\Day10Practice\solidPriciples\obj\Debug\net10.0\solidPriciples.pdb
+C:\Users\VSOFT\my-project\DotnetPractice\Day10\Day10Practice\solidPriciples\obj\Debug\net10.0\solidPriciples.genruntimeconfig.cache
+C:\Users\VSOFT\my-project\DotnetPractice\Day10\Day10Practice\solidPriciples\obj\Debug\net10.0\ref\solidPriciples.dll
