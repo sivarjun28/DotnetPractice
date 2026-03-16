@@ -1,0 +1,15 @@
+C:\Users\VSOFT\my-project\DotnetPractice\Day12-LinQ\Day12 Practice\masteryLinq\bin\Debug\net10.0\masteryLinq.exe
+C:\Users\VSOFT\my-project\DotnetPractice\Day12-LinQ\Day12 Practice\masteryLinq\bin\Debug\net10.0\masteryLinq.deps.json
+C:\Users\VSOFT\my-project\DotnetPractice\Day12-LinQ\Day12 Practice\masteryLinq\bin\Debug\net10.0\masteryLinq.runtimeconfig.json
+C:\Users\VSOFT\my-project\DotnetPractice\Day12-LinQ\Day12 Practice\masteryLinq\bin\Debug\net10.0\masteryLinq.dll
+C:\Users\VSOFT\my-project\DotnetPractice\Day12-LinQ\Day12 Practice\masteryLinq\bin\Debug\net10.0\masteryLinq.pdb
+C:\Users\VSOFT\my-project\DotnetPractice\Day12-LinQ\Day12 Practice\masteryLinq\obj\Debug\net10.0\masteryLinq.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VSOFT\my-project\DotnetPractice\Day12-LinQ\Day12 Practice\masteryLinq\obj\Debug\net10.0\masteryLinq.AssemblyInfoInputs.cache
+C:\Users\VSOFT\my-project\DotnetPractice\Day12-LinQ\Day12 Practice\masteryLinq\obj\Debug\net10.0\masteryLinq.AssemblyInfo.cs
+C:\Users\VSOFT\my-project\DotnetPractice\Day12-LinQ\Day12 Practice\masteryLinq\obj\Debug\net10.0\masteryLinq.csproj.CoreCompileInputs.cache
+C:\Users\VSOFT\my-project\DotnetPractice\Day12-LinQ\Day12 Practice\masteryLinq\obj\Debug\net10.0\masteryLinq.sourcelink.json
+C:\Users\VSOFT\my-project\DotnetPractice\Day12-LinQ\Day12 Practice\masteryLinq\obj\Debug\net10.0\masteryLinq.dll
+C:\Users\VSOFT\my-project\DotnetPractice\Day12-LinQ\Day12 Practice\masteryLinq\obj\Debug\net10.0\refint\masteryLinq.dll
+C:\Users\VSOFT\my-project\DotnetPractice\Day12-LinQ\Day12 Practice\masteryLinq\obj\Debug\net10.0\masteryLinq.pdb
+C:\Users\VSOFT\my-project\DotnetPractice\Day12-LinQ\Day12 Practice\masteryLinq\obj\Debug\net10.0\masteryLinq.genruntimeconfig.cache
+C:\Users\VSOFT\my-project\DotnetPractice\Day12-LinQ\Day12 Practice\masteryLinq\obj\Debug\net10.0\ref\masteryLinq.dll

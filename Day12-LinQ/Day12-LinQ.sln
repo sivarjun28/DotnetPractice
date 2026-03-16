@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day12 Practice", "Day12 Practice", "{D8E6AA9E-D933-B6FC-F38E-2A89F83B26DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "masteryLinq", "Day12 Practice\masteryLinq\masteryLinq.csproj", "{0BCCEC0B-F8C2-2715-F0E1-F9C8A31766EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BCCEC0B-F8C2-2715-F0E1-F9C8A31766EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BCCEC0B-F8C2-2715-F0E1-F9C8A31766EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BCCEC0B-F8C2-2715-F0E1-F9C8A31766EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BCCEC0B-F8C2-2715-F0E1-F9C8A31766EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0BCCEC0B-F8C2-2715-F0E1-F9C8A31766EC} = {D8E6AA9E-D933-B6FC-F38E-2A89F83B26DA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82C70800-1156-461D-82A4-4F927A3BAB1B}
+	EndGlobalSection
+EndGlobal
