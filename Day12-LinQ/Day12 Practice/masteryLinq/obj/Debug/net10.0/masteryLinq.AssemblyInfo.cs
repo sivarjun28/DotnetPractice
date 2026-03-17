@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("masteryLinq")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+af48e0f921a85b2924ce4879d5559a03d811ec58")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+820eee876cc5eaeffac323e5328bc7539851e23c")]
 [assembly: System.Reflection.AssemblyProductAttribute("masteryLinq")]
 [assembly: System.Reflection.AssemblyTitleAttribute("masteryLinq")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
