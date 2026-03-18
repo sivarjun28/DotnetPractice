@@ -1,0 +1,15 @@
+C:\Users\VSOFT\my-project\DotnetPractice\Day13-LinQ\Day13Practice\AdvanceLinQ\bin\Debug\net10.0\AdvanceLinQ.exe
+C:\Users\VSOFT\my-project\DotnetPractice\Day13-LinQ\Day13Practice\AdvanceLinQ\bin\Debug\net10.0\AdvanceLinQ.deps.json
+C:\Users\VSOFT\my-project\DotnetPractice\Day13-LinQ\Day13Practice\AdvanceLinQ\bin\Debug\net10.0\AdvanceLinQ.runtimeconfig.json
+C:\Users\VSOFT\my-project\DotnetPractice\Day13-LinQ\Day13Practice\AdvanceLinQ\bin\Debug\net10.0\AdvanceLinQ.dll
+C:\Users\VSOFT\my-project\DotnetPractice\Day13-LinQ\Day13Practice\AdvanceLinQ\bin\Debug\net10.0\AdvanceLinQ.pdb
+C:\Users\VSOFT\my-project\DotnetPractice\Day13-LinQ\Day13Practice\AdvanceLinQ\obj\Debug\net10.0\AdvanceLinQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VSOFT\my-project\DotnetPractice\Day13-LinQ\Day13Practice\AdvanceLinQ\obj\Debug\net10.0\AdvanceLinQ.AssemblyInfoInputs.cache
+C:\Users\VSOFT\my-project\DotnetPractice\Day13-LinQ\Day13Practice\AdvanceLinQ\obj\Debug\net10.0\AdvanceLinQ.AssemblyInfo.cs
+C:\Users\VSOFT\my-project\DotnetPractice\Day13-LinQ\Day13Practice\AdvanceLinQ\obj\Debug\net10.0\AdvanceLinQ.csproj.CoreCompileInputs.cache
+C:\Users\VSOFT\my-project\DotnetPractice\Day13-LinQ\Day13Practice\AdvanceLinQ\obj\Debug\net10.0\AdvanceLinQ.sourcelink.json
+C:\Users\VSOFT\my-project\DotnetPractice\Day13-LinQ\Day13Practice\AdvanceLinQ\obj\Debug\net10.0\AdvanceLinQ.dll
+C:\Users\VSOFT\my-project\DotnetPractice\Day13-LinQ\Day13Practice\AdvanceLinQ\obj\Debug\net10.0\refint\AdvanceLinQ.dll
+C:\Users\VSOFT\my-project\DotnetPractice\Day13-LinQ\Day13Practice\AdvanceLinQ\obj\Debug\net10.0\AdvanceLinQ.pdb
+C:\Users\VSOFT\my-project\DotnetPractice\Day13-LinQ\Day13Practice\AdvanceLinQ\obj\Debug\net10.0\AdvanceLinQ.genruntimeconfig.cache
+C:\Users\VSOFT\my-project\DotnetPractice\Day13-LinQ\Day13Practice\AdvanceLinQ\obj\Debug\net10.0\ref\AdvanceLinQ.dll
