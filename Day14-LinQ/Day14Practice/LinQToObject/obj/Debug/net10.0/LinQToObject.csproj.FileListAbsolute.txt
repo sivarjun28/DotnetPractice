@@ -1,0 +1,15 @@
+d:\VSC\DotnetPractice\Day14-LinQ\Day14Practice\LinQToObject\bin\Debug\net10.0\LinQToObject.exe
+d:\VSC\DotnetPractice\Day14-LinQ\Day14Practice\LinQToObject\bin\Debug\net10.0\LinQToObject.deps.json
+d:\VSC\DotnetPractice\Day14-LinQ\Day14Practice\LinQToObject\bin\Debug\net10.0\LinQToObject.runtimeconfig.json
+d:\VSC\DotnetPractice\Day14-LinQ\Day14Practice\LinQToObject\bin\Debug\net10.0\LinQToObject.dll
+d:\VSC\DotnetPractice\Day14-LinQ\Day14Practice\LinQToObject\bin\Debug\net10.0\LinQToObject.pdb
+d:\VSC\DotnetPractice\Day14-LinQ\Day14Practice\LinQToObject\obj\Debug\net10.0\LinQToObject.GeneratedMSBuildEditorConfig.editorconfig
+d:\VSC\DotnetPractice\Day14-LinQ\Day14Practice\LinQToObject\obj\Debug\net10.0\LinQToObject.AssemblyInfoInputs.cache
+d:\VSC\DotnetPractice\Day14-LinQ\Day14Practice\LinQToObject\obj\Debug\net10.0\LinQToObject.AssemblyInfo.cs
+d:\VSC\DotnetPractice\Day14-LinQ\Day14Practice\LinQToObject\obj\Debug\net10.0\LinQToObject.csproj.CoreCompileInputs.cache
+d:\VSC\DotnetPractice\Day14-LinQ\Day14Practice\LinQToObject\obj\Debug\net10.0\LinQToObject.sourcelink.json
+d:\VSC\DotnetPractice\Day14-LinQ\Day14Practice\LinQToObject\obj\Debug\net10.0\LinQToObject.dll
+d:\VSC\DotnetPractice\Day14-LinQ\Day14Practice\LinQToObject\obj\Debug\net10.0\refint\LinQToObject.dll
+d:\VSC\DotnetPractice\Day14-LinQ\Day14Practice\LinQToObject\obj\Debug\net10.0\LinQToObject.pdb
+d:\VSC\DotnetPractice\Day14-LinQ\Day14Practice\LinQToObject\obj\Debug\net10.0\LinQToObject.genruntimeconfig.cache
+d:\VSC\DotnetPractice\Day14-LinQ\Day14Practice\LinQToObject\obj\Debug\net10.0\ref\LinQToObject.dll

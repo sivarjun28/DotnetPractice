@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LinQToObject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4bcbef1027ef336214bed55bdc3db41254e20f93")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8f924dc613f142fca1ea3507dfa6c1ede9888fc7")]
 [assembly: System.Reflection.AssemblyProductAttribute("LinQToObject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LinQToObject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,2 @@
+This code uses LINQ to efficiently process file system data by filtering, transforming, and sorting files based on specific conditions.
+arjunyadav6407@gmail.com
