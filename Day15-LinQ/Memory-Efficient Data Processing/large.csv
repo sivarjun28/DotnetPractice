@@ -1,0 +1,11 @@
+Id,Name,Price,Category,Stock,IsActive
+1,Laptop,750,Electronics,50,true
+2,TShirt,20,Clothing,200,true
+3,Bread,5,Food,500,true
+4,Headphones,120,Electronics,80,false
+5,Novel,15,Books,150,true
+6,Smartphone,900,Electronics,30,true
+7,Jeans,40,Clothing,100,false
+8,Chocolate,3,Food,300,true
+9,Tablet,300,Electronics,60,true
+10,Notebook,2,Books,400,true
