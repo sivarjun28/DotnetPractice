@@ -68,7 +68,7 @@ namespace Exercise02.Controllers
             return CreatedAtAction(nameof(GetById), new { id = todo.Id }, todo);
         }
 
-        //// PUT api/todos/{id}
+        // PUT api/todos/{id}
         [HttpPut("{id}")]
         public IActionResult Update(int id, [FromBody] CreateTodoDto dto)
         {
