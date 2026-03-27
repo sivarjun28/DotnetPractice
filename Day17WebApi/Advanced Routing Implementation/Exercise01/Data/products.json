@@ -1,0 +1,42 @@
+[
+  {
+    "Id": 1,
+    "Sku": "AB1234",
+    "Name": "Laptop",
+    "Price": 750.00,
+    "Category": "electronics",
+    "CreatedDate": "2025-03-01",
+    "IsFeatured": true,
+    "Stock": 10
+  },
+  {
+    "Id": 2,
+    "Sku": "CD5678",
+    "Name": "Phone",
+    "Price": 500.00,
+    "Category": "electronics",
+    "CreatedDate": "2025-02-15",
+    "IsFeatured": false,
+    "Stock": 25
+  },
+  {
+    "Id": 3,
+    "Sku": "EF9012",
+    "Name": "Shoes",
+    "Price": 80.00,
+    "Category": "fashion",
+    "CreatedDate": "2024-12-10",
+    "IsFeatured": true,
+    "Stock": 50
+  },
+  {
+    "Id": 4,
+    "Sku": "EF9012",
+    "Name": "Shoes",
+    "Price": 80.00,
+    "Category": "fashion",
+    "CreatedDate": "2024-12-10",
+    "IsFeatured": true,
+    "Stock": 50
+  }
+]
