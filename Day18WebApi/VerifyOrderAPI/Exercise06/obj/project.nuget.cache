@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "dgSpecHash": "eqiPh/ftjM8=",
+  "success": true,
+  "projectFilePath": "D:\\VSC\\DotnetPractice\\DotnetPractice\\Day18WebApi\\VerifyOrderAPI\\Exercise06\\Exercise06.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Laptops Garage\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",
+    "C:\\Users\\Laptops Garage\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.1\\fluentvalidation.aspnetcore.11.3.1.nupkg.sha512",
+    "C:\\Users\\Laptops Garage\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.11.0\\fluentvalidation.dependencyinjectionextensions.11.11.0.nupkg.sha512",
+    "C:\\Users\\Laptops Garage\\.nuget\\packages\\microsoft.aspnetcore.mvc\\2.3.9\\microsoft.aspnetcore.mvc.2.3.9.nupkg.sha512",
+    "C:\\Users\\Laptops Garage\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\2.3.0\\microsoft.aspnetcore.mvc.razor.extensions.2.3.0.nupkg.sha512",
+    "C:\\Users\\Laptops Garage\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.5\\microsoft.aspnetcore.openapi.10.0.5.nupkg.sha512",
+    "C:\\Users\\Laptops Garage\\.nuget\\packages\\microsoft.aspnetcore.razor.design\\2.3.0\\microsoft.aspnetcore.razor.design.2.3.0.nupkg.sha512",
+    "C:\\Users\\Laptops Garage\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\2.3.0\\microsoft.aspnetcore.razor.language.2.3.0.nupkg.sha512",
+    "C:\\Users\\Laptops Garage\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\1.1.0\\microsoft.codeanalysis.analyzers.1.1.0.nupkg.sha512",
+    "C:\\Users\\Laptops Garage\\.nuget\\packages\\microsoft.codeanalysis.common\\2.8.2\\microsoft.codeanalysis.common.2.8.2.nupkg.sha512",
+    "C:\\Users\\Laptops Garage\\.nuget\\packages\\microsoft.codeanalysis.csharp\\2.8.2\\microsoft.codeanalysis.csharp.2.8.2.nupkg.sha512",
+    "C:\\Users\\Laptops Garage\\.nuget\\packages\\microsoft.codeanalysis.razor\\2.3.0\\microsoft.codeanalysis.razor.2.3.0.nupkg.sha512",
+    "C:\\Users\\Laptops Garage\\.nuget\\packages\\microsoft.extensions.apidescription.server\\10.0.0\\microsoft.extensions.apidescription.server.10.0.0.nupkg.sha512",
+    "C:\\Users\\Laptops Garage\\.nuget\\packages\\microsoft.openapi\\2.4.1\\microsoft.openapi.2.4.1.nupkg.sha512",
+    "C:\\Users\\Laptops Garage\\.nuget\\packages\\swashbuckle.aspnetcore\\10.1.7\\swashbuckle.aspnetcore.10.1.7.nupkg.sha512",
+    "C:\\Users\\Laptops Garage\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\10.1.7\\swashbuckle.aspnetcore.swagger.10.1.7.nupkg.sha512",
+    "C:\\Users\\Laptops Garage\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\10.1.7\\swashbuckle.aspnetcore.swaggergen.10.1.7.nupkg.sha512",
+    "C:\\Users\\Laptops Garage\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\10.1.7\\swashbuckle.aspnetcore.swaggerui.10.1.7.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1510",
+      "level": "Warning",
+      "message": "PackageReference Microsoft.AspNetCore.Mvc will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.",
+      "projectPath": "D:\\VSC\\DotnetPractice\\DotnetPractice\\Day18WebApi\\VerifyOrderAPI\\Exercise06\\Exercise06.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\VSC\\DotnetPractice\\DotnetPractice\\Day18WebApi\\VerifyOrderAPI\\Exercise06\\Exercise06.csproj",
+      "libraryId": "Microsoft.AspNetCore.Mvc",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}
