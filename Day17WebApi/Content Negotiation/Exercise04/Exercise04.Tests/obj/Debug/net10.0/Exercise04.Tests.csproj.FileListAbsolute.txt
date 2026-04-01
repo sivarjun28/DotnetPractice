@@ -1,0 +1,6 @@
+C:\Users\VSOFT\my-project\DotnetPractice\Day17WebApi\Content Negotiation\Exercise04\Exercise04.Tests\obj\Debug\net10.0\Exercise04.Tests.csproj.AssemblyReference.cache
+C:\Users\VSOFT\my-project\DotnetPractice\Day17WebApi\Content Negotiation\Exercise04\Exercise04.Tests\obj\Debug\net10.0\Exercise04.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VSOFT\my-project\DotnetPractice\Day17WebApi\Content Negotiation\Exercise04\Exercise04.Tests\obj\Debug\net10.0\Exercise04.Tests.AssemblyInfoInputs.cache
+C:\Users\VSOFT\my-project\DotnetPractice\Day17WebApi\Content Negotiation\Exercise04\Exercise04.Tests\obj\Debug\net10.0\Exercise04.Tests.AssemblyInfo.cs
+C:\Users\VSOFT\my-project\DotnetPractice\Day17WebApi\Content Negotiation\Exercise04\Exercise04.Tests\obj\Debug\net10.0\Exercise04.Tests.csproj.CoreCompileInputs.cache
+C:\Users\VSOFT\my-project\DotnetPractice\Day17WebApi\Content Negotiation\Exercise04\Exercise04.Tests\obj\Debug\net10.0\Exercise04.Tests.sourcelink.json
