@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "dgSpecHash": "UR1uhEmkCxo=",
+  "success": true,
+  "projectFilePath": "D:\\VSC\\DotnetPractice\\DotnetPractice\\Day20WebApi\\Result Filters\\Exercise04\\Exercise04.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Laptops Garage\\.nuget\\packages\\microsoft.aspnetcore.mvc.formatters.xml\\2.3.9\\microsoft.aspnetcore.mvc.formatters.xml.2.3.9.nupkg.sha512",
+    "C:\\Users\\Laptops Garage\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.5\\microsoft.aspnetcore.openapi.10.0.5.nupkg.sha512",
+    "C:\\Users\\Laptops Garage\\.nuget\\packages\\microsoft.aspnetcore.responsecompression\\2.3.9\\microsoft.aspnetcore.responsecompression.2.3.9.nupkg.sha512",
+    "C:\\Users\\Laptops Garage\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1510",
+      "level": "Warning",
+      "message": "PackageReference Microsoft.AspNetCore.Mvc.Formatters.Xml will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.",
+      "projectPath": "D:\\VSC\\DotnetPractice\\DotnetPractice\\Day20WebApi\\Result Filters\\Exercise04\\Exercise04.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\VSC\\DotnetPractice\\DotnetPractice\\Day20WebApi\\Result Filters\\Exercise04\\Exercise04.csproj",
+      "libraryId": "Microsoft.AspNetCore.Mvc.Formatters.Xml",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1510",
+      "level": "Warning",
+      "message": "PackageReference Microsoft.AspNetCore.ResponseCompression will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.",
+      "projectPath": "D:\\VSC\\DotnetPractice\\DotnetPractice\\Day20WebApi\\Result Filters\\Exercise04\\Exercise04.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\VSC\\DotnetPractice\\DotnetPractice\\Day20WebApi\\Result Filters\\Exercise04\\Exercise04.csproj",
+      "libraryId": "Microsoft.AspNetCore.ResponseCompression",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}

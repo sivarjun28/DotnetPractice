@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "SmBjhtop5ew=",
+  "success": true,
+  "projectFilePath": "D:\\VSC\\DotnetPractice\\DotnetPractice\\Day20WebApi\\FilterPipeline\\Exercise05\\Exercise05.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Laptops Garage\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.5\\microsoft.aspnetcore.openapi.10.0.5.nupkg.sha512",
+    "C:\\Users\\Laptops Garage\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
