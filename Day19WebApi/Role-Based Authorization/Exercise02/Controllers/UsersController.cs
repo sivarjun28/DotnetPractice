@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Exercise02.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/users")]
     [Authorize(Roles = "Admin")]
     public class UsersController : ControllerBase
     {

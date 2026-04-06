@@ -44,3 +44,4 @@ C:\Users\VSOFT\my-project\DotnetPractice\Day19WebApi\Role-Based Authorization\Ex
 C:\Users\VSOFT\my-project\DotnetPractice\Day19WebApi\Role-Based Authorization\Exercise02\obj\Debug\net10.0\Exercise02.pdb
 C:\Users\VSOFT\my-project\DotnetPractice\Day19WebApi\Role-Based Authorization\Exercise02\obj\Debug\net10.0\Exercise02.genruntimeconfig.cache
 C:\Users\VSOFT\my-project\DotnetPractice\Day19WebApi\Role-Based Authorization\Exercise02\obj\Debug\net10.0\ref\Exercise02.dll
+C:\Users\VSOFT\my-project\DotnetPractice\Day19WebApi\Role-Based Authorization\Exercise02\bin\Debug\net10.0\products.json
