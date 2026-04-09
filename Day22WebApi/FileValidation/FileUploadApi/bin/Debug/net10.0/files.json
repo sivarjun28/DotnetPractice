@@ -2,26 +2,43 @@
   {
     "FileName": "file-example_PDF_1MB.pdf",
     "FilePath": "C:\\Users\\VSOFT\\my-project\\DotnetPractice\\Day22WebApi\\FileValidation\\FileUploadApi\\UploadedFiles\\file-example_PDF_1MB.pdf",
-    "UploadDate": "2026-04-09T10:58:37.3326979+05:30"
+    "UploadDate": "2026-04-09T10:58:37.3326979+05:30",
+    "FileType": ""
   },
   {
     "FileName": "file-example_PDF_1MB.pdf",
     "FilePath": "C:\\Users\\VSOFT\\my-project\\DotnetPractice\\Day22WebApi\\FileValidation\\FileUploadApi\\UploadedFiles\\file-example_PDF_1MB.pdf",
-    "UploadDate": "2026-04-09T10:58:58.6118688+05:30"
+    "UploadDate": "2026-04-09T10:58:58.6118688+05:30",
+    "FileType": ""
   },
   {
     "FileName": "file-example_PDF_1MB.pdf",
     "FilePath": "C:\\Users\\VSOFT\\my-project\\DotnetPractice\\Day22WebApi\\FileValidation\\FileUploadApi\\UploadedFiles\\file-example_PDF_1MB.pdf",
-    "UploadDate": "2026-04-09T10:59:40.3720967+05:30"
+    "UploadDate": "2026-04-09T10:59:40.3720967+05:30",
+    "FileType": ""
   },
   {
     "FileName": "Screenshot (1).png",
     "FilePath": "C:\\Users\\VSOFT\\my-project\\DotnetPractice\\Day22WebApi\\FileValidation\\FileUploadApi\\UploadedFiles\\Screenshot (1).png",
-    "UploadDate": "2026-04-09T10:59:40.3730733+05:30"
+    "UploadDate": "2026-04-09T10:59:40.3730733+05:30",
+    "FileType": ""
   },
   {
     "FileName": "file-example_PDF_1MB.pdf",
     "FilePath": "C:\\Users\\VSOFT\\my-project\\DotnetPractice\\Day22WebApi\\FileValidation\\FileUploadApi\\UploadedFiles\\file-example_PDF_1MB.pdf",
-    "UploadDate": "2026-04-09T17:45:29.8708319+05:30"
+    "UploadDate": "2026-04-09T17:45:29.8708319+05:30",
+    "FileType": ""
+  },
+  {
+    "FileName": "file-example_PDF_1MB.pdf",
+    "FilePath": "C:\\Users\\VSOFT\\my-project\\DotnetPractice\\Day22WebApi\\FileValidation\\FileUploadApi\\UploadedFiles\\file-example_PDF_1MB.pdf",
+    "UploadDate": "2026-04-09T18:04:14.7649366+05:30",
+    "FileType": ""
+  },
+  {
+    "FileName": "10145543053606005.pdf",
+    "FilePath": "D:\\VSC\\DotnetPractice\\DotnetPractice\\Day22WebApi\\FileValidation\\FileUploadApi\\UploadedFiles\\BestPractice\\10145543053606005.pdf",
+    "UploadDate": "2026-04-09T22:32:31.9589107+05:30",
+    "FileType": "BestPractice"
   }
 ]

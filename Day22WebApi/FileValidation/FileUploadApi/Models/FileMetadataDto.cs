@@ -5,5 +5,7 @@ namespace FileUploadApi.Models
         public string FileName { get; set; } = string.Empty;
         public string FilePath { get; set; } = string.Empty;
         public DateTime UploadDate { get; set; }
+
+        public string FileType { get; set; } = string.Empty; 
     }
 }

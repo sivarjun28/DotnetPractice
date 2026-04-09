@@ -1,11 +1,7 @@
 using FileUploadApi.Constants;
 using FileUploadApi.Models;
 using FileUploadApi.Services;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using System;
-using System.IO;
-using System.Threading.Tasks;
 
 namespace FileUploadApi.Controllers
 {
@@ -21,77 +17,34 @@ namespace FileUploadApi.Controllers
         }
 
         [HttpPost(RouteValue.Upload)]
-        public async Task<IActionResult> UploadFile(IFormFile file)
+        public async Task<IActionResult> UploadFile([FromForm] IFormFile file)
         {
             try
             {
                 if (file == null || file.Length == 0)
                 {
-                    return BadRequest(new ApiResponse<ErrorResponse>
+                    return BadRequest(new ApiResponse<string>
                     {
                         Success = false,
-                        Message = "No file uploaded.",
-                        Data = new ErrorResponse { Error = "No file", Details = "Please upload a file." }
+                        Message = "No file uploaded"
                     });
                 }
 
-                var fileName = await _fileService.SaveFileAsync(file);
+                var result = await _fileService.SaveFileAsync(file);
 
-                var response = new ApiResponse<FileMetadataDto>
+                return Ok(new ApiResponse<FileMetadataDto>
                 {
                     Success = true,
-                    Message = "File uploaded successfully.",
-                    Data = new FileMetadataDto
-                    {
-                        FileName = fileName,
-                        FilePath = Path.Combine(Directory.GetCurrentDirectory(), "UploadedFiles", fileName),
-                        UploadDate = DateTime.Now
-                    }
-                };
-
-                return Ok(response);
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, new ApiResponse<ErrorResponse>
-                {
-                    Success = false,
-                    Message = "An error occurred while uploading the file.",
-                    Data = new ErrorResponse { Error = ex.Message, Details = ex.StackTrace }
+                    Message = "File uploaded successfully",
+                    Data = result
                 });
             }
-        }
-
-
-        [HttpGet(RouteValue.File)]
-        public IActionResult GetFiles()
-        {
-            try
-            {
-                var files = _fileService.GetUploadedFiles();
-                var fileDtos = files.Select(f => new FileMetadataDto
-                {
-                    FileName = f.FileName,
-                    FilePath = f.FilePath,
-                    UploadDate = f.UploadDate
-                }).ToList();
-
-                var response = new ApiResponse<List<FileMetadataDto>>
-                {
-                    Success = true,
-                    Message = "Files retrieved successfully.",
-                    Data = fileDtos
-                };
-
-                return Ok(response);
-            }
             catch (Exception ex)
             {
-                return StatusCode(500, new ApiResponse<ErrorResponse>
+                return StatusCode(500, new ApiResponse<string>
                 {
                     Success = false,
-                    Message = "An error occurred while fetching the files.",
-                    Data = new ErrorResponse { Error = ex.Message, Details = ex.StackTrace }
+                    Message = ex.Message
                 });
             }
         }
@@ -99,29 +52,58 @@ namespace FileUploadApi.Controllers
         [HttpPost(RouteValue.UploadMultiple)]
         public async Task<IActionResult> UploadMultipleFiles([FromForm] List<IFormFile> files)
         {
-            if (files == null || files.Count == 0)
+            try
             {
-                return BadRequest(new ApiResponse<object>
+                if (files == null || files.Count == 0)
                 {
-                    Success = false,
-                    Message = "No files uploaded.",
-                    Data = new ErrorResponse
+                    return BadRequest(new ApiResponse<string>
                     {
-                        Error = "No files",
-                        Details = "Please upload at least one file."
-                    }
+                        Success = false,
+                        Message = "No files uploaded"
+                    });
+                }
+
+                var result = await _fileService.SaveMultipleFilesAsync(files);
+
+                return Ok(new ApiResponse<List<FileMetadataDto>>
+                {
+                    Success = true,
+                    Message = "Files uploaded successfully",
+                    Data = result
                 });
             }
-
-            var uploadedFiles = await _fileService.SaveMultipleFilesAsync(files);
-
-            return Ok(new ApiResponse<List<FileMetadataDto>>
+            catch (Exception ex)
             {
-                Success = true,
-                Message = "Files uploaded successfully.",
-                Data = uploadedFiles
-            });
+                return StatusCode(500, new ApiResponse<string>
+                {
+                    Success = false,
+                    Message = ex.Message
+                });
+            }
         }
 
+        [HttpGet(RouteValue.File)]
+        public IActionResult GetFiles([FromQuery] string? fileType)
+        {
+            try
+            {
+                var files = _fileService.GetUploadedFiles(fileType);
+
+                return Ok(new ApiResponse<List<FileMetadataDto>>
+                {
+                    Success = true,
+                    Message = "Files retrieved successfully",
+                    Data = files
+                });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new ApiResponse<string>
+                {
+                    Success = false,
+                    Message = ex.Message
+                });
+            }
+        }
     }
 }

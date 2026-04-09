@@ -1,101 +1,84 @@
 using System.Text.Json;
 using FileUploadApi.Models;
-using System.IO;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
-using System;
 
 namespace FileUploadApi.Services
 {
     public class FileService : IFileService
     {
-        private readonly string _uploadDirectory = Path.Combine(Directory.GetCurrentDirectory(), "UploadedFiles");
-        private readonly string _jsonFilePath = Path.Combine(Directory.GetCurrentDirectory(), "files.json");
+        private readonly IEnumerable<IFileTypeService> _services;
+        private readonly string _basePath = Path.Combine(Directory.GetCurrentDirectory(), "UploadedFiles");
+        private readonly string _jsonPath = Path.Combine(Directory.GetCurrentDirectory(), "files.json");
 
-        public FileService()
+        public FileService(IEnumerable<IFileTypeService> services)
         {
-            if (!Directory.Exists(_uploadDirectory))
-                Directory.CreateDirectory(_uploadDirectory);
+            _services = services;
         }
 
-        public async Task<string> SaveFileAsync(IFormFile file)
+        public async Task<FileMetadataDto> SaveFileAsync(IFormFile file)
         {
-            try
+            var service = _services.FirstOrDefault(s => s.Supports(file));
+
+            if (service == null)
+                throw new Exception("Unsupported file type");
+
+            service.Validate(file);
+
+            var folderPath = Path.Combine(_basePath, service.GetFolderName());
+
+            if (!Directory.Exists(folderPath))
+                Directory.CreateDirectory(folderPath);
+
+            var filePath = Path.Combine(folderPath, file.FileName);
+
+            using (var stream = new FileStream(filePath, FileMode.Create))
             {
-                var filePath = Path.Combine(_uploadDirectory, file.FileName);
-                using (var stream = new FileStream(filePath, FileMode.Create))
-                {
-                    await file.CopyToAsync(stream);
-                }
-
-                var fileMetadata = new FileMetadataDto
-                {
-                    FileName = file.FileName,
-                    FilePath = filePath,
-                    UploadDate = DateTime.Now
-                };
-
-                var files = GetUploadedFiles();
-                files.Add(fileMetadata);
-
-                var jsonData = JsonSerializer.Serialize(files, new JsonSerializerOptions { WriteIndented = true });
-                await File.WriteAllTextAsync(_jsonFilePath, jsonData);
-
-                return file.FileName;
+                await file.CopyToAsync(stream);
             }
-            catch (Exception ex)
+
+            var metadata = new FileMetadataDto
             {
-                throw new ApplicationException("Error saving file.", ex);
-            }
-        }
+                FileName = file.FileName,
+                FilePath = filePath,
+                UploadDate = DateTime.Now,
+                FileType = service.GetFolderName()
+            };
 
-        public List<FileMetadataDto> GetUploadedFiles()
-        {
-            try
-            {
-                if (!File.Exists(_jsonFilePath))
-                    return new List<FileMetadataDto>();
+            var files = GetUploadedFiles(null);
+            files.Add(metadata);
 
-                var jsonData = File.ReadAllText(_jsonFilePath);
-                return JsonSerializer.Deserialize<List<FileMetadataDto>>(jsonData) ?? new List<FileMetadataDto>();
-            }
-            catch (Exception ex)
-            {
-                throw new ApplicationException("Error reading file metadata.", ex);
-            }
+            var json = JsonSerializer.Serialize(files, new JsonSerializerOptions { WriteIndented = true });
+            await File.WriteAllTextAsync(_jsonPath, json);
+
+            return metadata;
         }
 
         public async Task<List<FileMetadataDto>> SaveMultipleFilesAsync(List<IFormFile> files)
         {
-            var uploadedFiles = new List<FileMetadataDto>();
+            var result = new List<FileMetadataDto>();
 
             foreach (var file in files)
             {
-                var filePath = Path.Combine(_uploadDirectory, file.FileName);
-                using (var stream = new FileStream(filePath, FileMode.Create))
-                {
-                    await file.CopyToAsync(stream);
-                }
-
-                var fileMetadata = new FileMetadataDto
-                {
-                    FileName = file.FileName,
-                    FilePath = filePath,
-                    UploadDate = DateTime.Now
-                };
-
-                uploadedFiles.Add(fileMetadata);
+                result.Add(await SaveFileAsync(file));
             }
 
-            var existingFiles = GetUploadedFiles();
-            existingFiles.AddRange(uploadedFiles);
-
-            var jsonData = JsonSerializer.Serialize(existingFiles, new JsonSerializerOptions { WriteIndented = true });
-            await File.WriteAllTextAsync(_jsonFilePath, jsonData);
-
-            return uploadedFiles;
+            return result;
         }
 
+        public List<FileMetadataDto> GetUploadedFiles(string? fileType)
+        {
+            if (!File.Exists(_jsonPath))
+                return new List<FileMetadataDto>();
+
+            var json = File.ReadAllText(_jsonPath);
+            var files = JsonSerializer.Deserialize<List<FileMetadataDto>>(json) ?? new();
+
+            if (!string.IsNullOrEmpty(fileType))
+                files = files
+                    .Where(f => f.FileType.Equals(fileType, StringComparison.OrdinalIgnoreCase))
+                    .ToList();
+
+            return files;
+        }
     }
 }

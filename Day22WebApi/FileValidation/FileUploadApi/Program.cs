@@ -9,6 +9,11 @@ builder.Services.AddSwaggerGen();
 
 
 builder.Services.AddScoped<IFileService, FileService>();
+builder.Services.AddScoped<IFileService, FileService>();
+
+builder.Services.AddScoped<IFileTypeService, BestPracticeService>();
+builder.Services.AddScoped<IFileTypeService, LessonsLearnedService>();
+builder.Services.AddScoped<IFileTypeService, MeetingNotesService>();
 
 var app = builder.Build();
 
