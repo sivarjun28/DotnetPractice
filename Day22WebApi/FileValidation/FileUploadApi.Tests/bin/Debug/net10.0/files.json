@@ -1,0 +1,37 @@
+[
+  {
+    "FileName": "file-example_PDF_1MB.pdf",
+    "FilePath": "C:\\Users\\VSOFT\\my-project\\DotnetPractice\\Day22WebApi\\FileValidation\\FileUploadApi\\UploadedFiles\\file-example_PDF_1MB.pdf",
+    "UploadDate": "2026-04-08T18:26:34.5924017+05:30"
+  },
+  {
+    "FileName": "file-example_PDF_1MB.pdf",
+    "FilePath": "C:\\Users\\VSOFT\\my-project\\DotnetPractice\\Day22WebApi\\FileValidation\\FileUploadApi\\UploadedFiles\\file-example_PDF_1MB.pdf",
+    "UploadDate": "2026-04-08T18:35:18.7571817+05:30"
+  },
+  {
+    "FileName": "Screenshot (1).png",
+    "FilePath": "C:\\Users\\VSOFT\\my-project\\DotnetPractice\\Day22WebApi\\FileValidation\\FileUploadApi\\UploadedFiles\\Screenshot (1).png",
+    "UploadDate": "2026-04-08T18:35:18.7599196+05:30"
+  },
+  {
+    "FileName": "file-example_PDF_1MB.pdf",
+    "FilePath": "C:\\Users\\VSOFT\\my-project\\DotnetPractice\\Day22WebApi\\FileValidation\\FileUploadApi\\UploadedFiles\\file-example_PDF_1MB.pdf",
+    "UploadDate": "2026-04-08T18:36:14.791956+05:30"
+  },
+  {
+    "FileName": "file0.txt",
+    "FilePath": "C:\\Users\\VSOFT\\my-project\\DotnetPractice\\Day22WebApi\\FileValidation\\FileUploadApi.Tests\\bin\\Debug\\net10.0\\UploadedFiles\\file0.txt",
+    "UploadDate": "2026-04-09T10:40:12.2173037+05:30"
+  },
+  {
+    "FileName": "file1.txt",
+    "FilePath": "C:\\Users\\VSOFT\\my-project\\DotnetPractice\\Day22WebApi\\FileValidation\\FileUploadApi.Tests\\bin\\Debug\\net10.0\\UploadedFiles\\file1.txt",
+    "UploadDate": "2026-04-09T10:40:12.2182511+05:30"
+  },
+  {
+    "FileName": "test.txt",
+    "FilePath": "C:\\Users\\VSOFT\\my-project\\DotnetPractice\\Day22WebApi\\FileValidation\\FileUploadApi.Tests\\bin\\Debug\\net10.0\\UploadedFiles\\test.txt",
+    "UploadDate": "2026-04-09T10:40:12.3198863+05:30"
+  }
+]
