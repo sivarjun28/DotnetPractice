@@ -1,0 +1,44 @@
+{
+  "version": 2,
+  "dgSpecHash": "3Nah4idBsO0=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\VSOFT\\my-project\\DotnetPractice\\Day24WebApi\\ResponseCaching\\Exercise01\\Exercise01.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\VSOFT\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.3\\microsoft.aspnetcore.openapi.10.0.3.nupkg.sha512",
+    "C:\\Users\\VSOFT\\.nuget\\packages\\microsoft.extensions.apidescription.server\\10.0.0\\microsoft.extensions.apidescription.server.10.0.0.nupkg.sha512",
+    "C:\\Users\\VSOFT\\.nuget\\packages\\microsoft.extensions.caching.memory\\10.0.5\\microsoft.extensions.caching.memory.10.0.5.nupkg.sha512",
+    "C:\\Users\\VSOFT\\.nuget\\packages\\microsoft.net.http.headers\\10.0.5\\microsoft.net.http.headers.10.0.5.nupkg.sha512",
+    "C:\\Users\\VSOFT\\.nuget\\packages\\microsoft.openapi\\2.4.1\\microsoft.openapi.2.4.1.nupkg.sha512",
+    "C:\\Users\\VSOFT\\.nuget\\packages\\swashbuckle.aspnetcore\\10.1.7\\swashbuckle.aspnetcore.10.1.7.nupkg.sha512",
+    "C:\\Users\\VSOFT\\.nuget\\packages\\swashbuckle.aspnetcore.annotations\\10.1.7\\swashbuckle.aspnetcore.annotations.10.1.7.nupkg.sha512",
+    "C:\\Users\\VSOFT\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\10.1.7\\swashbuckle.aspnetcore.swagger.10.1.7.nupkg.sha512",
+    "C:\\Users\\VSOFT\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\10.1.7\\swashbuckle.aspnetcore.swaggergen.10.1.7.nupkg.sha512",
+    "C:\\Users\\VSOFT\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\10.1.7\\swashbuckle.aspnetcore.swaggerui.10.1.7.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1510",
+      "level": "Warning",
+      "message": "PackageReference Microsoft.Extensions.Caching.Memory will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.",
+      "projectPath": "C:\\Users\\VSOFT\\my-project\\DotnetPractice\\Day24WebApi\\ResponseCaching\\Exercise01\\Exercise01.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\VSOFT\\my-project\\DotnetPractice\\Day24WebApi\\ResponseCaching\\Exercise01\\Exercise01.csproj",
+      "libraryId": "Microsoft.Extensions.Caching.Memory",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1510",
+      "level": "Warning",
+      "message": "PackageReference Microsoft.Net.Http.Headers will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.",
+      "projectPath": "C:\\Users\\VSOFT\\my-project\\DotnetPractice\\Day24WebApi\\ResponseCaching\\Exercise01\\Exercise01.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\VSOFT\\my-project\\DotnetPractice\\Day24WebApi\\ResponseCaching\\Exercise01\\Exercise01.csproj",
+      "libraryId": "Microsoft.Net.Http.Headers",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}

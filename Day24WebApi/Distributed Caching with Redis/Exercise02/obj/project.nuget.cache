@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "mn/tyTh4lj0=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\VSOFT\\my-project\\DotnetPractice\\Day24WebApi\\Distributed Caching with Redis\\Exercise02\\Exercise02.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\VSOFT\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.3\\microsoft.aspnetcore.openapi.10.0.3.nupkg.sha512",
+    "C:\\Users\\VSOFT\\.nuget\\packages\\microsoft.extensions.apidescription.server\\10.0.0\\microsoft.extensions.apidescription.server.10.0.0.nupkg.sha512",
+    "C:\\Users\\VSOFT\\.nuget\\packages\\microsoft.extensions.caching.stackexchangeredis\\10.0.5\\microsoft.extensions.caching.stackexchangeredis.10.0.5.nupkg.sha512",
+    "C:\\Users\\VSOFT\\.nuget\\packages\\microsoft.openapi\\2.4.1\\microsoft.openapi.2.4.1.nupkg.sha512",
+    "C:\\Users\\VSOFT\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.8\\pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
+    "C:\\Users\\VSOFT\\.nuget\\packages\\stackexchange.redis\\2.7.27\\stackexchange.redis.2.7.27.nupkg.sha512",
+    "C:\\Users\\VSOFT\\.nuget\\packages\\swashbuckle.aspnetcore\\10.1.7\\swashbuckle.aspnetcore.10.1.7.nupkg.sha512",
+    "C:\\Users\\VSOFT\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\10.1.7\\swashbuckle.aspnetcore.swagger.10.1.7.nupkg.sha512",
+    "C:\\Users\\VSOFT\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\10.1.7\\swashbuckle.aspnetcore.swaggergen.10.1.7.nupkg.sha512",
+    "C:\\Users\\VSOFT\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\10.1.7\\swashbuckle.aspnetcore.swaggerui.10.1.7.nupkg.sha512"
+  ],
+  "logs": []
+}

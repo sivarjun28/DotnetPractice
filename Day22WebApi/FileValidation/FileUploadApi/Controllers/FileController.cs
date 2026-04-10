@@ -16,7 +16,7 @@ namespace FileUploadApi.Controllers
             _fileService = fileService;
         }
 
-        [HttpPost(RouteValue.Upload)]
+        [HttpPost(RouteConstants.Upload)]
         public async Task<IActionResult> UploadFile([FromForm] IFormFile file)
         {
             try
@@ -49,7 +49,7 @@ namespace FileUploadApi.Controllers
             }
         }
 
-        [HttpPost(RouteValue.UploadMultiple)]
+        [HttpPost(RouteConstants.UploadMultiple)]
         public async Task<IActionResult> UploadMultipleFiles([FromForm] List<IFormFile> files)
         {
             try
@@ -82,7 +82,7 @@ namespace FileUploadApi.Controllers
             }
         }
 
-        [HttpGet(RouteValue.File)]
+        [HttpGet(RouteConstants.File)]
         public IActionResult GetFiles([FromQuery] string? fileType)
         {
             try
@@ -102,6 +102,42 @@ namespace FileUploadApi.Controllers
                 {
                     Success = false,
                     Message = ex.Message
+                });
+            }
+        }
+
+        [HttpGet(RouteConstants.AllFiles)]
+        public IActionResult GetAllFiles()
+        {
+            try
+            {
+                var files = _fileService.GetUploadedFiles(null);
+
+                var groupedFiles = files
+                    .GroupBy(f => f.FileType)
+                    .ToDictionary(
+                        g => g.Key,
+                        g => g.ToList()
+                    );
+
+                return Ok(new ApiResponse<Dictionary<string, List<FileMetadataDto>>>
+                {
+                    Success = true,
+                    Message = "All files grouped by type retrieved successfully",
+                    Data = groupedFiles
+                });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new ApiResponse<object>
+                {
+                    Success = false,
+                    Message = "Error retrieving grouped files",
+                    Data = new
+                    {
+                        Error = ex.Message,
+                        Details = "Failed to fetch files grouped by type"
+                    }
                 });
             }
         }
