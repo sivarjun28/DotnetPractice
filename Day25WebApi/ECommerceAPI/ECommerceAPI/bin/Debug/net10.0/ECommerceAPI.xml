@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ECommerceAPI</name>
+    </assembly>
+    <members>
+        <member name="M:ECommerceAPI.Controllers.AuthController.Register(ECommerceAPI.Models.Entities.RegisterRequest)">
+            <summary>
+            Register a new user
+            </summary>
+        </member>
+        <member name="M:ECommerceAPI.Controllers.AuthController.Login(ECommerceAPI.Models.Entities.LoginRequest)">
+            <summary>
+            Authenticate user and get JWT token
+            </summary>
+        </member>
+        <member name="M:ECommerceAPI.Controllers.AuthController.RefreshToken(System.String)">
+            <summary>
+            Authenticate user and get JWT token
+            </summary>
+        </member>
+        <member name="M:ECommerceAPI.Controllers.ProductsV1Controller.GetAll">
+            <summary>
+            Get all products (V1 - Simple response)
+            </summary>
+        </member>
+        <member name="M:ECommerceAPI.Controllers.ProductsV1Controller.GetById(System.Int32)">
+            <summary>
+            Get a specific product by its ID (V1)
+            </summary>
+        </member>
+        <member name="M:ECommerceAPI.Controllers.ProductsV1Controller.Create(ECommerceAPI.Models.Requests.CreateProductRequest)">
+            <summary>
+            Create a new product (V1)
+            </summary>
+        </member>
+        <member name="M:ECommerceAPI.Controllers.ProductsV1Controller.Update(System.Int32,ECommerceAPI.Models.Requests.UpdateProductRequest)">
+            <summary>
+            Update an existing product (V1)
+            </summary>
+        </member>
+        <member name="M:ECommerceAPI.Controllers.ProductsV1Controller.Delete(System.Int32)">
+            <summary>
+            Delete an existing product (V1)
+            </summary>
+        </member>
+        <member name="M:ECommerceAPI.Controllers.ProductsV2Controller.GetAllPaged(System.Int32,System.Int32)">
+            <summary>
+            Get all products with pagination (V2)
+            </summary>
+        </member>
+        <member name="M:ECommerceAPI.Controllers.ProductsV2Controller.GetById(System.Int32)">
+            <summary>
+            Get a specific product by its ID with related data (V2)
+            </summary>
+            <param name="id">The ID of the product</param>
+        </member>
+        <member name="M:ECommerceAPI.Controllers.ProductsV2Controller.Search(ECommerceAPI.Models.Entities.ProductSearchCriteria)">
+            <summary>
+            Advanced search for products (V2)
+            </summary>
+        </member>
+        <member name="T:Program">
+            <summary>
+            Auto-generated public partial Program class for top-level statement apps.
+            </summary>
+        </member>
+    </members>
+</doc>
