@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "jxNCVVAppt0=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\VSOFT\\my-project\\DotnetPractice\\Day21WebApi\\Dependency Injection Patterns\\Exercise01\\Exercise01.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\VSOFT\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.3\\microsoft.aspnetcore.openapi.10.0.3.nupkg.sha512",
+    "C:\\Users\\VSOFT\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

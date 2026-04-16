@@ -2,10 +2,12 @@ using FileUploadApi.Models;
 using Microsoft.AspNetCore.Http;
 using System;
 using System.Net;
+using System.Text.Json;
 using System.Threading.Tasks;
 
 namespace FileUploadApi.Middleware
 {
+
     public class ExceptionMiddleware
     {
         private readonly RequestDelegate _next;
@@ -15,35 +17,50 @@ namespace FileUploadApi.Middleware
             _next = next;
         }
 
-        public async Task InvokeAsync(HttpContext httpContext)
+        public async Task Invoke(HttpContext context)
         {
             try
             {
-                await _next(httpContext);
+                await _next(context);
             }
             catch (Exception ex)
             {
-                await HandleExceptionAsync(httpContext, ex);
+                await HandleExceptionAsync(context, ex);
             }
         }
 
-        private Task HandleExceptionAsync(HttpContext context, Exception exception)
+        private static Task HandleExceptionAsync(HttpContext context, Exception exception)
         {
-            context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
-            context.Response.ContentType = "application/json";
+            HttpStatusCode status;
 
-            var response = new ApiResponse<ErrorResponse>
+            switch (exception)
+            {
+                case ArgumentException:
+                    status = HttpStatusCode.BadRequest;
+                    break;
+
+                case KeyNotFoundException:
+                    status = HttpStatusCode.NotFound;
+                    break;
+
+                default:
+                    status = HttpStatusCode.InternalServerError;
+                    break;
+            }
+
+            var response = new ApiResponse<object>
             {
                 Success = false,
-                Message = "An unexpected error occurred.",
-                Data = new ErrorResponse
-                {
-                    Error = exception.Message,
-                    Details = exception.StackTrace
-                }
+                Message = exception.Message,
+                Errors = new List<string> { exception.ToString() }
             };
 
-            return context.Response.WriteAsJsonAsync(response);
+            var result = JsonSerializer.Serialize(response);
+
+            context.Response.ContentType = "application/json";
+            context.Response.StatusCode = (int)status;
+
+            return context.Response.WriteAsync(result);
         }
     }
 }

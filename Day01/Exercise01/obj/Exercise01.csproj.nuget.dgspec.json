@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\VSOFT\\my-project\\DotnetPractice\\Day01\\Exercise01\\Exercise01.csproj": {}
+    "C:\\Users\\VSOFT\\my-project\\DotnetPractice\\Day01\\Exercise01\\Exercise01.csproj": {}
   },
   "projects": {
-    "c:\\Users\\VSOFT\\my-project\\DotnetPractice\\Day01\\Exercise01\\Exercise01.csproj": {
+    "C:\\Users\\VSOFT\\my-project\\DotnetPractice\\Day01\\Exercise01\\Exercise01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\VSOFT\\my-project\\DotnetPractice\\Day01\\Exercise01\\Exercise01.csproj",
+        "projectUniqueName": "C:\\Users\\VSOFT\\my-project\\DotnetPractice\\Day01\\Exercise01\\Exercise01.csproj",
         "projectName": "Exercise01",
-        "projectPath": "c:\\Users\\VSOFT\\my-project\\DotnetPractice\\Day01\\Exercise01\\Exercise01.csproj",
+        "projectPath": "C:\\Users\\VSOFT\\my-project\\DotnetPractice\\Day01\\Exercise01\\Exercise01.csproj",
         "packagesPath": "C:\\Users\\VSOFT\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\VSOFT\\my-project\\DotnetPractice\\Day01\\Exercise01\\obj\\",
+        "outputPath": "C:\\Users\\VSOFT\\my-project\\DotnetPractice\\Day01\\Exercise01\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\VSOFT\\AppData\\Roaming\\NuGet\\NuGet.Config",

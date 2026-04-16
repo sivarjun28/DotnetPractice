@@ -1,12 +1,15 @@
-using FileUploadApi.Constants;
-using FileUploadApi.Models;
-using FileUploadApi.Services;
-using Microsoft.AspNetCore.Mvc;
+
 
 namespace FileUploadApi.Controllers
 {
-    [Route("api/[controller]")]
+    using FileUploadApi.Constants;
+    using FileUploadApi.Models;
+    using FileUploadApi.Models.Requests;
+    using FileUploadApi.Services.Interfaces;
+    using Microsoft.AspNetCore.Mvc;
+
     [ApiController]
+    [Route("api/[controller]")]
     public class FileController : ControllerBase
     {
         private readonly IFileService _fileService;
@@ -17,129 +20,50 @@ namespace FileUploadApi.Controllers
         }
 
         [HttpPost(RouteConstants.Upload)]
-        public async Task<IActionResult> UploadFile([FromForm] IFormFile file)
+        public async Task<IActionResult> Upload([FromForm] FileUploadRequest request)
         {
-            try
-            {
-                if (file == null || file.Length == 0)
-                {
-                    return BadRequest(new ApiResponse<string>
-                    {
-                        Success = false,
-                        Message = "No file uploaded"
-                    });
-                }
+            var result = await _fileService.UploadAsync(request);
 
-                var result = await _fileService.SaveFileAsync(file);
-
-                return Ok(new ApiResponse<FileMetadataDto>
-                {
-                    Success = true,
-                    Message = "File uploaded successfully",
-                    Data = result
-                });
-            }
-            catch (Exception ex)
+            return Ok(new ApiResponse<object>
             {
-                return StatusCode(500, new ApiResponse<string>
-                {
-                    Success = false,
-                    Message = ex.Message
-                });
-            }
+                Success = true,
+                Message = "File uploaded successfully",
+                Data = result
+            });
         }
-
-        [HttpPost(RouteConstants.UploadMultiple)]
-        public async Task<IActionResult> UploadMultipleFiles([FromForm] List<IFormFile> files)
+        [HttpGet("{moduleName}")]
+        public async Task<IActionResult> GetAll(string moduleName)
         {
-            try
-            {
-                if (files == null || files.Count == 0)
-                {
-                    return BadRequest(new ApiResponse<string>
-                    {
-                        Success = false,
-                        Message = "No files uploaded"
-                    });
-                }
+            var result = await _fileService.GetAllAsync(moduleName);
 
-                var result = await _fileService.SaveMultipleFilesAsync(files);
-
-                return Ok(new ApiResponse<List<FileMetadataDto>>
-                {
-                    Success = true,
-                    Message = "Files uploaded successfully",
-                    Data = result
-                });
-            }
-            catch (Exception ex)
+            return Ok(new ApiResponse<object>
             {
-                return StatusCode(500, new ApiResponse<string>
-                {
-                    Success = false,
-                    Message = ex.Message
-                });
-            }
+                Success = true,
+                Message = "Data fetched successfully",
+                Data = result
+            });
         }
-
-        [HttpGet(RouteConstants.File)]
-        public IActionResult GetFiles([FromQuery] string? fileType)
-        {
-            try
-            {
-                var files = _fileService.GetUploadedFiles(fileType);
-
-                return Ok(new ApiResponse<List<FileMetadataDto>>
-                {
-                    Success = true,
-                    Message = "Files retrieved successfully",
-                    Data = files
-                });
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, new ApiResponse<string>
-                {
-                    Success = false,
-                    Message = ex.Message
-                });
-            }
-        }
-
         [HttpGet(RouteConstants.AllFiles)]
-        public IActionResult GetAllFiles()
+        public async Task<IActionResult> GetFiles()
         {
-            try
-            {
-                var files = _fileService.GetUploadedFiles(null);
+            var response = await _fileService.GetFilesAsync();
 
-                var groupedFiles = files
-                    .GroupBy(f => f.FileType)
-                    .ToDictionary(
-                        g => g.Key,
-                        g => g.ToList()
-                    );
+            if (!response.Success)
+                return BadRequest(response);
 
-                return Ok(new ApiResponse<Dictionary<string, List<FileMetadataDto>>>
-                {
-                    Success = true,
-                    Message = "All files grouped by type retrieved successfully",
-                    Data = groupedFiles
-                });
-            }
-            catch (Exception ex)
+            return Ok(response);
+        }
+        [HttpDelete("{moduleName}/{id}")]
+        public async Task<IActionResult> Delete(string moduleName, int id)
+        {
+            var result = await _fileService.DeleteAsync(moduleName, id);
+
+            return Ok(new ApiResponse<bool>
             {
-                return StatusCode(500, new ApiResponse<object>
-                {
-                    Success = false,
-                    Message = "Error retrieving grouped files",
-                    Data = new
-                    {
-                        Error = ex.Message,
-                        Details = "Failed to fetch files grouped by type"
-                    }
-                });
-            }
+                Success = true,
+                Message = "File deleted successfully",
+                Data = result
+            });
         }
     }
 }
