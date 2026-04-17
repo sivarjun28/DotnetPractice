@@ -1,0 +1,6 @@
+@HierarchicalOrganizationStructure_HostAddress = http://localhost:5249
+
+GET {{HierarchicalOrganizationStructure_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,23 +1,30 @@
 using BlogSystem.Data;
+using BlogSystem.Services.Implementations;
+using BlogSystem.Services.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-
 builder.Services.AddDbContext<BlogDbContext>(options =>
-        options.UseMySql(connectionString,
-                    new MySqlServerVersion(new Version(8, 0, 0)))
+    options.UseMySql(
+        builder.Configuration.GetConnectionString("DefaultConnection"),
+        ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection"))
+    ));
 
-);
+builder.Services.AddControllers()
+    .AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.ReferenceHandler =
+            System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles;
+    });
+builder.Services.AddScoped<IBlogService, BlogService>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddControllers();
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
 {
-        app.UseSwagger();
-        app.UseSwaggerUI();
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
 
 app.UseHttpsRedirection();

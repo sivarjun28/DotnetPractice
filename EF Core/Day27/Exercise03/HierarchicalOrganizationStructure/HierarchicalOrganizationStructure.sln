@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HierarchicalOrganizationStructure", "HierarchicalOrganizationStructure.csproj", "{9315EC22-3565-9216-4BA1-893BE0444FDA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9315EC22-3565-9216-4BA1-893BE0444FDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9315EC22-3565-9216-4BA1-893BE0444FDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9315EC22-3565-9216-4BA1-893BE0444FDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9315EC22-3565-9216-4BA1-893BE0444FDA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31E50775-DB3A-4DE9-B43B-AE1810C8BD6B}
+	EndGlobalSection
+EndGlobal
